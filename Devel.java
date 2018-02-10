@@ -4,6 +4,10 @@ class Devel {
         this.devel;
         this.devel2;
         this.devel3;
+<<<<<<< HEAD
         this.master;    //master
+=======
+        this.client;    //client
+>>>>>>> client
     }
 }
