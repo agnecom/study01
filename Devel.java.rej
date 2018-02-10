@@ -1,0 +1,17 @@
+diff a/Devel.java b/Devel.java	(rejected hunks)
+@@ -4,10 +4,14 @@
+         this.devel;
+         this.devel2;
+         this.devel3;
++<<<<<<< HEAD
+ <<<<<<< HEAD
+         this.master;    //master
+ =======
+         this.client;    //client
+ >>>>>>> client
++=======
++        this.server;    //server
++>>>>>>> server
+     }
+ }
+\ No newline at end of file
