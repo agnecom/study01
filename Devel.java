@@ -3,5 +3,6 @@ class Devel {
     public getDevel() {
         this.devel;
         this.devel2;
+        this.devel3;
     }
 }
