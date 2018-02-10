@@ -4,5 +4,6 @@ class Devel {
         this.devel;
         this.devel2;
         this.devel3;
+        this.server;
     }
 }
