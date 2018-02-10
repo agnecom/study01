@@ -1,7 +1,6 @@
 function View(common) {
     this.common = common;
 }
-<<<<<<< HEAD
 
 View.prototype.addNewArticle = function (article, callback1 = ()=>{}, callback2 = ()=>{}, rowClickListener = ()=>{}) {
     var tableBody = this.common.select("table > tbody");
@@ -63,7 +62,6 @@ View.prototype.removeDetailRows = function (tbody) {
     }
 };
 
-=======
 
 View.prototype.addNewArticle = function (article, callback1 = ()=>{}, callback2 = ()=>{}, rowClickListener = ()=>{}) {
     var tableBody = this.common.select("table > tbody");
@@ -125,7 +123,6 @@ View.prototype.removeDetailRows = function (tbody) {
     }
 };
 
->>>>>>> develop
 View.prototype.addDetailView = function(tbody, rowIndex, content) {
     var detailRow = tbody.insertRow(rowIndex);
     detailRow.className = "detail";
