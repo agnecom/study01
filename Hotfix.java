@@ -77,7 +77,7 @@ View.prototype.removeAllArticles = function () {
   // table > tbody > tr 을 모두
   });
 
-
+sdfsdf
 
 };
 
